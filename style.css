@@ -38,9 +38,10 @@
 /*====== Pagina inicial ======*/
 main{
     width: 940px;
-    display: 100%;
+    display: flex;
     background-color: #fbf4ff;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     margin-bottom: 0.5%;
 }
 

@@ -37,8 +37,8 @@
 
 /*====== Pagina inicial ======*/
 main{
-    width: 100%;
-    display: 90%;
+    width: auto;
+    display: 100%;
     background-color: #fbf4ff;
     height: 100%;
     margin: auto;

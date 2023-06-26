@@ -37,7 +37,7 @@
 
 /*====== Pagina inicial ======*/
 main{
-    width: 1080px;
+    width: 100%;
     display: flex;
     background-color: #fbf4ff;
     margin: 0;

@@ -8,7 +8,7 @@
 .nav{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: flex-end;
     background-color: #fbf4ff;}
 
@@ -37,7 +37,7 @@
 
 /*====== Pagina inicial ======*/
 main{
-    width: 100%;
+    width: 90%;
     display: flex;
     background-color: #fbf4ff;
     height: 550px;

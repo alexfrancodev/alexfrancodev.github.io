@@ -37,10 +37,9 @@
 
 /*====== Pagina inicial ======*/
 main{
-    width: auto;
+    width: 940px;
     display: 100%;
     background-color: #fbf4ff;
-    height: 100%;
     margin: auto;
     margin-bottom: 0.5%;
 }

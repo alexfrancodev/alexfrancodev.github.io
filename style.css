@@ -37,11 +37,11 @@
 
 /*====== Pagina inicial ======*/
 main{
-    width: 100%;
+    
     display: flex;
     background-color: #fbf4ff;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     margin-bottom: 0.5%;
 }
 

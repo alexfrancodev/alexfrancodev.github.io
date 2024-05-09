@@ -1,336 +1,421 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olá, eu me chamo Alex, sou um estudante de ADS sejam muito Bem-Vindos ao meu Portfólio!">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Alex Gomes Franco">
-  <meta name="description" content="Olá, meu nome é Alex Gomes Franco, 29 anos, Técnico em Informática e Estudante de T.I, Apaixonado por Tecnologia e Ajudar a transformar a vida das pessoas através dela.
-  ">
-  <meta name="keywords"
-    content="Alex, Franco , Gomes , Informática, Computação">
+  <link rel="icon" type="image/png" href="./src/img/icon-nav.png"/>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/responsive.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <meta property="og:title" content="Alex Gomes Franco" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="www.alexfranco.me" />
-  <meta property="og:site_name" content="Alex Gomes Franco" />
-  <meta property="og:description" content="Olá,meu nome é Alex Franco
-  educação e o mundo open source." />
-  <meta property="og:image" content="https://cristianoprogramador.com/img/icon.png" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  <title>Alex Franco</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-    rel="stylesheet">
-  <link href="./vendor/font-awesome/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.css" rel="stylesheet">
-
-  <link rel="icon" type="image/x-icon" href="./img/icon.ico">
-
-
+  <title>ALEX FRANCO DEV</title>
 </head>
 
-<body id="page-top">
+<body>
+  <header class="header-content">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Alex Franco Dev</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-5" src="img/profile.png"
-          alt="Foto Alex Franco">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#sobre">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#habilidades">Habilidades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experiencia">Experiências</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#Certificações">Certificações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#palestras">Palestras / Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#educacao">Educação</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="sobre">
-      <div class="my-auto">
-        <div class="row h-100">
-          <div class="col-12 col-sm-12 col-md-9 mt-5">
-            <h1>
-              Alex
-              <span class=" text-info">Gomes Franco</span>
-            </h1>
-            <div class="subheading col-mb-3">Serviço Público e Informática
-            </div>
-          </div>
-          <div class="col-12 sm-12 col-md-3 my-auto"><span> <img src="img/logo.svg" width="300px"
-                class="img-fluid" alt="Alex- Logo"></span></div>
+    <!--- MENU NAVBAR --->
+    <nav class="nav-bar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Portfo<span>lio.</span></a>
         </div>
-        <div class="subheading">
-          <a href="mailto:allexfranco5@gmail.com">allexfranco5@gmail.com</a> ·
-          <a href="tel:+5599984062715">(99) 9 -84062715</a>
-        </div>
-        <div class="subheading mb-3">
-          Barra do Corda , Maranhão , Brasil
-        </div>
-        <div id="sobre" class="subheading mb-5">
-          <p>Olá, meu nome é Alex Gomes Franco, 28 anos, Técnico em Informática e Serviços Públicos, Apaixonado por Tecnologia e Ajudar a transformar a vida das pessoas através dela.
-          </p>
-        </div>
-        
-      </div>
-    </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
-      <div class="my-auto">
-        <h2 class="mb-5">Habilidades</h2>
-
-        <div class="subheading mb-3">Informática e Computação</div>
-        <ul class="list-inline list-icons">
-      
-
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Início</a></li>
+          <li><a href="#about" class="menu-btn">Sobre mim</a></li>
+          <li><a href="#services" class="menu-btn">Serviços</a></li>
+          <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+          <li><a href="#certificates" class="menu-btn">Conquistas</a></li>
+          <li><a href="#projects" class="menu-btn">Projetos</a></li>
+          <li><a href="#contact" class="menu-btn">Contato</a></li>
         </ul>
 
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check text-info"></i>
-            Serviços Públicos  - UEMA</li>
-          
-          <li>
-            <i class="fa-li fa fa-check text-info"></i>
-            Tecnologias Web, Android e Manutenção Preventiva de Computadores
-          </li>
-          
-            <i class="fa-li fa fa-check text-info"></i>
-            Arquitetura de software e Computadores / Microsserviços
-          </li>
-        </ul>
-
-        <div class="subheading mb-3 mt-5">O que estou estudando</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Administração Pública - UEMA
-          </li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-           Segurança da Informação
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experiencia">
-      <div class="my-auto">
-        <h2 class="mb-5 ">Experiências</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0 ">Assistente Administrativo</h3>
-            <div class="subheading mb-3">
-              <a target="_blank" href="https://barradocorda.ma.gov.br/">Prefeitura de Barra do Corda - MA</a>
-            </div>
-            <p>
-
-            </p>
-            <p>
-              <strong>Atribuições</strong> Auxiliar na questão Administrativa de maneira Geral no Setor de Administração Pública na Prefeitura Municipal
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-info">Junho 2016 - 2020</span>
-          </div>
-        </div>
-
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0 ">Auxiliar Administrativo</h3>
-            <div class="subheading mb-3">
-              <a target="_blank" href="http://www.fernandofalcao.ma.gov.br/">Prefeitura de Fernando Falcão - MA</a>
-            </div>
-            <p>
-              ----
-            </p>
-            
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-info">Janeiro 2022 - Atual</span>
-          </div>
-        </div>
-
-       
-
-      
-
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-0 ">Auxiliar Administrativo</h3>
-            <div class="subheading mb-3">
-              <a target="_blank" href="funai.gov.br">FUNAI - Fundação Nacional do Índio</a>
-            </div>
-              <br>
-              Aqui aprendi a lidar com o público Indígena, e ajudar pessoas com diversos níveis de conhecimento e problemas técnico.
-              Foi muito importante para  a minha carreira, aprendi a ter ainda mais responsabilidades.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-info">Janeiro 2021 - Atual</span>
-          </div>
+        <!-- icon menu responsive -->
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
         </div>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Certificações">
-      <div class="my-auto">
-        <h2 class="mb-3">Certificações</h2>
-      
-        <ul class="fa-ul">
-          <li class="certificacoes">    
-          ---
-          </li>
-        </ul>
-
-        <h3>Cursos</h3>
-        <ul class="fa-ul">
-          <li class="curso">
-            <i class="fa-li fa fa-caret-square-o-right text-info"></i>
-            <a href="https://cloudnative.net.br/" target="_blank">Técnico em Servicos Públicos</a> – UEMA - Universidade Estadual do Maranhão - Formado
-          </li>
-
-          <li class="curso">
-            <i class="fa-li fa fa-caret-square-o-right text-info"></i>
-            <a href=""
-            target="_blank">Administração Pública</a> – UEMA - Universidade Estadual do Maranhão - Formando
-          </li>
-
-          <li class="curso">
-            <i class="fa-li fa fa-caret-square-o-right text-info"></i>
-            <a href=""
-            target="_blank">Assistente Administrativo
-          </a> – Iema - Maranhão Profissionalizado
-          </li>
-
-          <li class="curso">
-            <i class="fa-li fa fa-caret-square-o-right text-info"></i>
-            <a href="" target="_blank">
-              Auxiliar em Serviços Jurídicos
-            </a> – Iema - Maranhão Profissionalizado
-          </li>
-
-          <li class="curso">
-            <i class="fa-li fa fa-caret-square-o-right text-info"></i>
-            <a href="https://www.udemy.com/linguagem-de-programacao-c-avancado/" target="_blank">
-              Informática Básica</a> – Iema - Maranhão Profissionalizado
-            </li>
-          </li>
-
-        
-          
-        </ul>
-      </div>
-    </section>
   
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="palestras">
-      <div class="my-auto">
-        <h2 class="mb-5">Eventos e Palestras</h2>
-        <ul class="fa-ul mb-0 ml-0">
-          <li id="cursos">
-            <p class="lecure-title">
-              <img  class="lecure-icon" src="./img/curso.png"/>
-              ----
-            </p>
-            <p class="lecure-description mb-0">
-            ----
-            </p>
-            <p class="lecure-links-container">
-              <a class="lecture-links" href="https://www.udemy.com/course/redis-estrategias-cache-distribuido/" target="_blank" rel="noopener noreferrer">Curso</a>
-            </p>
-          </li>
-        </ul>
-        
-        <ul class="fa-ul mb-0 ml-0">
-          <li id="palestras">
-            <p class="lecure-title">
-              <img  class="lecure-icon" src="./img/palestra.png"/>
-             ----
-            </p>
-            <p class="lecure-description mb-0">
-             ...
-            </p>
-            <p class="lecure-links-container">
-              <a class="lecture-links" href="https://www.slideshare.net/CristianoRaffiCunha/boas-praticas-muito-alm-de-linhas-de-cdigo" target="_blank" rel="noopener noreferrer">Slides</a>
-              <a class="lecture-links" href="https://youtu.be/i7t-F4i5ulI" target="_blank" rel="noopener noreferrer">Vídeo</a>
-            </p>
-          </li>
-         
-         
-          <li id="segurança">
-            <p class="lecure-title">
-              <img  class="lecure-icon" src="./img/palestra.png"/>
-             
-            </p>
-            <p class="lecure-description mb-0">
---------            </p>
-            <p class="lecure-links-container">
-             
-          </li>
-         
-        </ul>
-      </div>
-    </section>
+  <main class="main-content">
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="educacao">
-      <div class="my-auto ">
-        <h2 class="mb-5 ">Educação</h2>
+    <!--- HOME SECTION --->
+    <section class="home section" id="home">
+      <div class="max-width">
+        <div class="home-content">
 
-        <div class="resume-item d-flex flex-column flex-md-row mb-5">
-          <div class="resume-content mr-auto">
-            <h3 class="mb-3 ">UNDB - Unidade de Ensino Superior Dom Bosco</h3>
-            <div class="subheading mb-3 ">Curso superior em Direito</div>
-            <p>Semestre: 4º</p>
+          <div class="home-icon">
+            <img src="./src/img/home-icon.jpg" alt="ícone imagem principal">
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-info">Trancado</span>
-          </div>
+          <div class="text-1">Olá Mundo</div>
+          <div class="text-2">Alex Franco</div>
+          <div class="text-3">E eu sou <span class="typing"></span></div>
         </div>
 
+         <div class="social-media">
+            <a href="https://github.com/alexfrancodev" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/alex_franco55/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
       </div>
     </section>
-  </div>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/resume.min.js"></script>
-</body>
 
+
+    <!--- ABOUT SECTION --->
+    <section class="about section" id="about" aria-label="uma seção falando sobre mim e a minha história na programação.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Sobre Mim</h2>
+
+        <div class="about-content">
+          <div class="column left">
+            <img src="./src/img/roberta-profile.jpg" alt="imagem pessoal Roberta Fontes">
+          </div>
+
+          <div class="column right">
+            <div class="text">
+              Meu nome é Alex-<span>estudante em formação</span>
+            </div>
+
+              <p >
+                Olá pessoal, muito prazer, eu me chamo Alex,Sejam muito
+                bem-vindos ao meu portfólio!! 
+                <br>
+                Atualmente, estou cursando Análise e Desenvolvimento de Sistemas
+                e estou no 1º período da faculdade, curso na UEMA, Universidade Estadual
+                do Maranhão.Minha jornada no mundo da
+                programação começou de forma bastante simples; sempre admirei
+                muito o universo da tecnologia e sempre tive muita curiosidade
+                sobre como os aplicativos e sites eram desenvolvidos, as
+                ferramentas por trás, as animações e tudo mais, sempre me
+                encantou tudo isso.
+                <br>
+                A cada dia, fui buscando aprender mais sobre as áreas em que
+                poderia atuar na programação. Como eu tinha mencionado
+                anteriormente, faço ADS, e é uma das áreas que comecei a gostar
+                bastante conforme da diversidade que existe dentro da área de
+                Análise e Desenvolvimento de Sistemas, porém no momento estou
+                estudando por fora a área de Desenvolvimento Web e a cada dia
+                estou me apaixonando pela área.
+                <br>
+                No momento, além dos estudos na faculdade, estou buscando
+                conhecimento por conta própria, fazendo cursos gratuitos para
+                complementar e aumentar os meus conhecimentos na área da
+                Tecnologia e utilizando materiais gratuitos, participando de
+                eventos e realizando bootcamps para aprimorar minhas habilidades.
+            </p>
+
+            <br>
+
+            <a href="drive_link.com"
+              download target="_blank">Download Currículo <i class="uil uil-file-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!--- SERVICES SECTION --->
+    <section class="services section" id="services" aria-label="uma seção falando dos meus serviços que eu ofereço.">
+      <div id="particles-js"></div>
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Serviços</h2>
+        </div>
+
+        <div class="serv-content" data-aos="zoom-in-up">
+          <div class="card">
+            <div class="box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <div class="text">Web Design</div>
+                <p>
+                  Ofereço serviços dedicados a criar layouts visualmente agradáveis,
+                  funcionais, com as necessidades específicas de cada cliente.
+                  Meu objetivo é transformar uma abordagem centrada no usuário, 
+                  garantindo uma experiência de navegação bem intuitiva.
+                </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="uil uil-brackets-curly"></i>
+              <div class="text">Front-End</div>
+              <p>
+                Desenvolvo interfaces especializados em entregar os sites responsivos, 
+                desde a codificação, até a implementação de animações e interações, 
+                garantindo uma experiência do usuário fluida e otimizada. 
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Programação Web</div>
+                <p>
+                  Desde do Desenvolvimento Front-end ao Back-end, estou pronta em colocar
+                  os meus estudos em prática e poder ir adquirindo conhececimentos para
+                  transformar sites eficientes e de alta performance para os usuários.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--- SKILLS SECTION --->
+    <section class="skills" id="skills" aria-label="uma seção falando das minhas habilidades e estudos até o momento.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Habilidades</h2>
+
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Minhas habilidades criativas e experiências</div>
+            <p>
+              Gostaria de compartilhar aqui sobre minha trajetória nos estudos da programação até o momento.
+              Embora eu ainda não tenha experiência profissional, tenho me dedicado diariamente para aprimorar minhas habilidades e conhecimentos na área de Desenvolvimento Full-Stack, na qual almejo me especializar.
+              <br>
+              Comecei meus estudos no Front-end, que é a parte visual e interativa dos sites. Estou me aprofundando cada dia mais em tecnologias como HTML, CSS e JavaScript, e atualmente iniciei meus estudos em React. Além disso, estou mergulhando no universo do Front-end e explorando Banco de Dados, que faz parte do Back-end, área que comecei estudar na Faculdade.
+              <br>
+              Estou gostando bastante de poder conhecer aos poucos como funciona por trás de tudo e suas tecnologias. Desde então, meu objetivo é continuar evoluindo e aprendendo cada dia mais que a área do Desenvolvimento Web oferece, para poder colocar meus conhecimentos em prática e continuar aprendendo ainda mais com projetos reais, visando contribuir no mercado de trabalho.
+            </p>
+          </div>
+
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>80%</span>        
+             </div> 
+             <div class="line html"></div>   
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>50%</span>    
+              </div>   
+              <div class="line css"></div>        
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>Bootstrap</span>
+                <span>25%</span>
+             </div>  
+              <div class="line bootstrap"></div>          
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>JavaScript</span>
+                <span>50%</span>               
+              </div>
+              <div class="line js"></div>                        
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>React</span>
+                <span>5%</span>              
+              </div>
+              <div class="line react"></div>
+           </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>MySql</span>
+                <span>5%</span>              
+              </div>
+              <div class="line sql"></div>
+           </div>
+          </div>
+        </div> 
+      </div>
+    </section> 
+
+
+    <!--- CERTIFICATES SECTION --->
+    <section class="conquest section" id="certificates" aria-label="uma seção mostrando os meus certificados do meu aprendizado.">
+      <div class="max-width" data-aos="fade-down">
+        <div>
+          <h2 class="title">Minhas Conquistas</h2>
+        </div>
+
+        <div class="carousel owl-carousel">
+
+          <div class="card">
+            <img src="./src/img/img-certificates/certificate-img-01.png" alt="Certificado Introdução ao Desenvolvimento Web">
+          </div>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+ 
+    <!--- PROJECTS SECTION --->
+    <section class="portfolio section" id="projects" aria-label="uma seção mostrando os principais projetos do meu Github.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Projetos</h2>
+        <div class="portfolio-container swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <!-- project 01 -->
+
+            <!--
+              
+              
+              <div class="portfolio-content swiper-slide">
+              <img src="./src/img/img-projects/yoga-website-project.png" class="portfolio-img" alt="projeto yoga website">
+              <div>
+               <h3 class="portfolio-title">Yoga Website</h3>
+                <p class="portfolio-description">
+                  um site referente as aulas de yoga totalmente responsivo e animado.
+                </p>
+                <a href="https://betafontes.github.io/yoga-website/" target="_blank" class="portfolio-button"> View <i class="uil uil-arrow-right button-icon"></i></a>
+              </div>
+            </div>       
+          
+          -->
+            
+
+            
+        
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+        <!--- CONTACT SECTION --->
+    <section class="contact section" id="contact" aria-label="uma seção falando se interessou com o meu trabalho, entrar em contato.">
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Contato</h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="column left" data-aos="fade-down">
+            <div class="text">Se Interessou?</div>
+
+            <p>Obrigada por ter chegado até aqui e conhecido um pouco da minha trajetória.
+              Seria um prazer poder compartilhar mais sobre mim e adquirir experiência enfrentando desafios no Desenvolvimento. Tenho o interesse também de explorar novas áreas no campo da programação. Se você estiver em busca de alguém dedicado, fome por aprendizado e que deseja crescer junto à sua empresa, ficaria honrado em ter essa oportunidade. Sinta-se à vontade para entrar em contato e juntos transformarmos ideias em realidade.</p>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Nome</div>
+                  <div class="sub-title">Alex Franco</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Endereço</div>
+                  <div class="sub-title">Barra do Corda-MA</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">allexfranco5@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="column right" data-aos="fade-up">
+              <div class="text">Fale comigo</div>
+
+              <form action="https://formsubmit.co/robertafontesds@gmail.com" method="POST" class="input-area">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" name="email" placeholder="Email" required>
+                  </div> 
+                </div> 
+                <div class="field">
+                  <input type="text" name="assunto" placeholder="Assunto" required>
+                </div>
+                <div class="textarea">
+                  <textarea cols="30" rows="10" name="mensagem" placeholder="Mensagem" required></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar</button> 
+                </div> 
+                <input type="hidden" name="_subject" value="New submission!">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!--- FOOTER --->
+  <footer> 
+    <span>Desenvolvido por <a href="#">Alex Franco</a> | <span class="far fa-copyright"></span><span> 2024 todos os direitos reservados</span>
+  </footer>
+
+
+  <!--- SCROLL UP --->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+
+  <!--- PARTICLES JS --->
+  <script src="./src/js/particles.js"></script>
+  <script src="./src/js/app-particles.js"></script>
+
+  <!--- SWIPER JS --->
+  <script src="./src/js/swiper-bundle.min.js"></script>
+
+  <!--- MAIN JS --->
+  <script src="./src/js/main.js"></script>
+
+  <!--- SCRIPT ANIMATION --->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  offset: 400,
+  duration: 1800,
+  });
+  </script>
+
+</body>
 </html>
